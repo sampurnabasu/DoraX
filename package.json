@@ -1,0 +1,39 @@
+{
+  "name": "dorabot",
+  "version": "1.0.0",
+  "description": "Personal BOt assitant for Project Dora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beanco CEO",
+  "license": "ISC",
+  "dependencies": {
+    "blockspring": "0.0.6",
+    "botbuilder": "^0.8.0",
+    "botconnector": "^0.9.6",
+    "botkit": "0.0.15",
+    "express": "^4.13.4",
+    "firebase": "^2.4.2",
+    "fs": "0.0.2",
+    "fs-writefile-promise": "^1.0.3",
+    "geolocate": "0.0.1",
+    "google-maps-api": "^2.0.1",
+    "googlemaps": "^1.4.0",
+    "hashmap": "^2.0.5",
+    "imgur": "^0.1.7",
+    "imgur-node-api": "^0.1.0",
+    "line-by-line": "^0.1.4",
+    "node-fs": "^6.0.0",
+    "project-oxford": "^1.1.0",
+    "querystring": "^0.2.0",
+    "restify": "^4.0.4",
+    "skype-sdk": "file:skype-sdk.tar",
+    "socket.io": "^1.4.5",
+    "tedious": "^1.14.0",
+    "writefile": "^0.2.8"
+  },
+  "engine": {
+    "node": ">=5.6.0"
+  }
+}
