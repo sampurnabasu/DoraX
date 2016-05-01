@@ -34,6 +34,126 @@ body {
     
     z-index:1032;
 }
+
+html, body, .container
+{
+    height: 100%; 
+    min-height: 100%;
+}
+
+.first1{
+    position: absolute;
+    top: 11%;
+    right: 50%;
+    width: 35%;
+    height: 39%;
+    background: 
+        linear-gradient(
+          rgba(255, 0, 0, 0.25), 
+          rgba(255, 0, 0, 0.25)
+        );
+    background-size: 100% 100%;
+    z-index:10;
+}
+
+.second1 {
+    position: absolute;
+    top: 11%;
+    right: 15%;
+    width: 35%;
+    height: 39%;
+    background: 
+        linear-gradient(
+          rgba(0, 255, 0, 0.25), 
+          rgba(0, 255, 0, 0.25)
+        );
+    background-size: 100% 100%;
+    z-index:10;
+}
+
+.third1{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 35%;
+    height: 38%;
+    background: 
+        linear-gradient(
+          rgba(0, 0, 255, 0.25), 
+          rgba(0, 0, 255, 0.25)
+        );
+    background-size: 100% 100%;
+    z-index:10;
+}
+
+.fourth1 {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    width: 35%;
+    height: 38%;
+    background: 
+        linear-gradient(
+          rgba(255, 255, 0, 0.25), 
+          rgba(255, 255, 0, 0.25)
+        );
+    background-size: 100% 100%;
+    z-index:10;
+}
+
+
+.first{
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    width: 35%;
+    height: 35%;
+    z-index:0;
+}
+
+.second {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 35%;
+    height: 35%;
+    z-index:0;
+}
+
+.third{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 35%;
+    height: 35%;
+    z-index:0;
+}
+
+.fourth {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    width: 35%;
+    height: 35%;
+    z-index:0;
+}
+
+.blank {
+    position: absolute;
+    top: 89%;
+    right: 0%;
+    width: 100%;
+    height: 5%;
+    background-color: #ffffff;
+    z-index:1;
+}
+
+
+#X{
+    position: relative;
+    top: 43%;
+}
+
 </style>
 
 
@@ -64,35 +184,28 @@ $(document).ready(function() {
     });
 });
 </script>
+<title>Picture Selector</title>
 </head>
 
-<div class = "head">
-	<center>
-	<bold> <h1> DoraX </h1> </bold>
-	<h3> Demo Panel </h3>
-	<br>
-</center>
-</div>
-
 <div class="container">
-    <div class="col-xs-6 col-sm-3">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-            <img src="http://1vze7o2h8a2b2tyahl3i0t68.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/lacma.jpg" alt="...">
+    <div>
+        <a href="#" class="thumbnail first" data-toggle="modal" data-target="#lightbox"> 
+            <img src="http://www.rottetstudio.com/TALK/wp-content/uploads/2010/04/The-Beverly-Hill-Hotel.jpg" alt="...">
         </a>
     </div>
-    <div class="col-xs-6 col-sm-3">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+    <div>
+        <a href="#" class="thumbnail second" data-toggle="modal" data-target="#lightbox"> 
             <img src="http://cdn3.thr.com/sites/default/files/2012/01/chinese_a.jpg" alt="...">
         </a>
     </div>
-    <div class="col-xs-6 col-sm-3">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Staples_Center_2012.jpg" alt="...">
+    <div>
+        <a href="#" class="thumbnail third" data-toggle="modal" data-target="#lightbox"> 
+            <img src="http://www.lacoliseum.com/wp-content/uploads/2015/03/peristyle_night.jpg" alt="...">
         </a>
     </div>
-    <div class="col-xs-6 col-sm-3">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-            <img src="http://www.lacoliseum.com/wp-content/uploads/2015/03/peristyle_night.jpg" alt="...">
+    <div>
+        <a href="#" class="thumbnail fourth" data-toggle="modal" data-target="#lightbox"> 
+            <img src="http://1vze7o2h8a2b2tyahl3i0t68.wpengine.netdna-cdn.com/wp-content/uploads/2015/06/lacma.jpg" alt="...">
         </a>
     </div>
 </div>
@@ -107,6 +220,15 @@ $(document).ready(function() {
         </div>
     </div>
 </div>
+
+<div class="container">
+  <div class="first1"></div>
+  <div class="third1"></div>
+  <div class="second1"></div>
+  <div class="fourth1"></div>
+  <div class="blank"></div> 
+</div>
+
 <body>
 </body>
 
